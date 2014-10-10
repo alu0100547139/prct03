@@ -1,5 +1,40 @@
 18. Muestra por pantalla hello world.
 	2.0.0p247 :001 > puts "hello world"
-hello world
- => nil 
-2.0.0p247 :002 > 
+	hello world
+	 => nil 
+	2.0.0p247 :002 > 
+
+21.¿Cuales son las diferencias entre la ejecucion del programa "Hola Mundo" con el interpretede Ruby (ruby helloWorld.rb) y el int´erprete interactivo del ejercicio anterior?
+ 
+	Con el interprete solo te muestra el mensaje:hello world
+	Con el interprete interactivo:
+	2.0.0p247 :001 > puts "hello world"
+	hello world
+	 => nil 
+	2.0.0p247 :002 > 
+
+26.¿Cual es el resultado de cada una de las siguientes operaciones?
+    10: 
+    11: x = 10
+    12: 
+    13: #start a PEPL session
+    14: 
+ => 15: binding.pry
+    16: 
+    17: #program resumes here (after pry session)
+    18: 
+    19: puts "program resumes here. Value of x is: #{x}."
+
+27.¿Cuales son las diferencias entre la ejecuci´on del programa "Hola Mundo" con el interprete interactivo y con pry?
+
+	Con el interprete interactivo nos muestra:
+	
+	2.0.0p247 :001 > puts "hello world"
+	hello world
+ 	=> nil 
+	
+	Con pry nos muestra:
+
+	alu4165@cc194:~/datos/homes.rala/LPP/prct03$ pry helloworld.rb 
+	hello world
+
