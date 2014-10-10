@@ -1,0 +1,5 @@
+18. Muestra por pantalla hello world.
+	2.0.0p247 :001 > puts "hello world"
+hello world
+ => nil 
+2.0.0p247 :002 > 
